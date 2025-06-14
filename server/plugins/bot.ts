@@ -15,4 +15,5 @@ export default (async () => {
     bot.on('callback_query', async (query) => {
 
     })
+    console.log('Бот запущен')
 })
