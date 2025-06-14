@@ -1,0 +1,27 @@
+{
+  "name": "nitro-server-bot-template",
+  "version": "0.0.1",
+  "private": true,
+  "description": "clear template nitro server for telegram bot",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "pg": "^8.16.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.9",
+    "nitropack": "latest"
+  }
+}
