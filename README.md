@@ -1,3 +1,11 @@
-# Nitro starter
+# Nitro telegram bot server
 
-Look at the [nitro quick start](https://nitro.unjs.io/guide#quick-start) to learn more how to get started.
+
+### Чистый проект сервера nitro для телеграм ботов.
+
+Инструменты: 
+
+- node-telegram-bot-api
+- sequelize
+- pg, sqlite
+
